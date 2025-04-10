@@ -4,7 +4,7 @@ portugues = float(input("Digite sua nota em Português: "))
 media = (matematica+portugues) / 2
 if media < 5.0:
     print("Devido a sua Média de {}, está Reprovado".format(media))
-elif media >= 5.0 and media < 6.9:
+elif 5.0 <= media < 6.9:
     print("Devido a sua Média de {}, está de Recuperação".format(media))
 else:
     print("Devido a sua Média de {}, está Aprovado".format(media))

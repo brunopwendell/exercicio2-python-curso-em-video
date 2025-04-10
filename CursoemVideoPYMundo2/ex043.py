@@ -3,12 +3,12 @@ altura = float(input("Digite a sua Altura: "))
 peso = float(input("Digite o seu Peso: "))
 imc = peso/ (altura * altura)
 if imc < 18.5:
-    print("O seu IMC é de {}, isto é, está Abaixo do Peso".format(imc))
+    print("O seu IMC é de {:.2f}, isto é, está Abaixo do Peso".format(imc))
 elif 18.5 <= imc < 25:
-    print("O seu IMC é de {}, isto é, está no Peso Ideal".format(imc))
+    print("O seu IMC é de {:.2f}, isto é, está no Peso Ideal".format(imc))
 elif 25 <= imc < 30:
-    print("O seu IMC é de {}, isto é, está Sobrepeso".format(imc))
+    print("O seu IMC é de {:.2f}, isto é, está Sobrepeso".format(imc))
 elif 30 <= imc < 40:
-    print("O seu IMC é de {}, isto é, está com Obesidade".format(imc))
+    print("O seu IMC é de {:.2f}, isto é, está com Obesidade".format(imc))
 else:
-    print("O seu IMC é de {}, isto é, está com Obesidade Mórbida".format(imc))
+    print("O seu IMC é de {:.2f}, isto é, está com Obesidade Mórbida".format(imc))
