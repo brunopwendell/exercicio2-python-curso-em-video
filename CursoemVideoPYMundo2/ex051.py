@@ -1,7 +1,6 @@
 print("Progressão Aritmética")
 primeiro_termo = int(input("Digite o 1º termo: "))
 razao = int(input("Digite a Razão: "))
-
-for i in range(10):
-    termo = primeiro_termo + i * razao
-    print(termo)
+decimo = primeiro_termo + (10 - 1) * razao
+for i in range(primeiro_termo, decimo, razao):
+    print(i, end=" ")
